@@ -1,0 +1,115 @@
+body {
+  font-family: "Heebo", sans-serif;
+}
+.slider-pips {
+  position: relative;
+  height: 50px;
+  margin: 10px 0 30px 0;
+  min-height: 40px;
+  font-size: 12px;
+}
+.slider-pips__range {
+  width: 100%;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  display: inline-block;
+  background: transparent;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+#mola{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 18px;
+}
+/****进度条样式*****/
+.slider-pips__range::-webkit-slider-runnable-track { // chrome
+  -webkit-appearance: none;
+          appearance: none;
+  position: relative;
+  background: white;
+  height: 40px;
+  border-radius: 4px;
+  transition: .5s all;
+}
+/****进度条样式*****/
+.slider-pips__range::-moz-range-thumb{ // firefox
+  -webkit-appearance: none;
+          appearance: none;
+  position: relative;
+  background: white;
+  height: 40px;
+  border-radius: 4px;
+  transition: .5s all;
+}
+/****滑块样式*****/
+.slider-pips__range::-moz-range-thumb { // firefox
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  box-shadow: 0 0 .09rem rgb(15,153,213);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 0px;
+  background: white;
+  transition: .5s;
+  transform: translateY(-4px);
+  z-index: 10;
+}
+/****滑块样式*****/
+.slider-pips__range::-webkit-slider-thumb { // chrome
+  -webkit-appearance: none;
+          appearance: none;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0 0 .09rem rgb(15,153,213);
+  top: 4.5px;
+  width: 45px;
+  height: 110%;
+  border-radius: 50%;
+  background: white;
+  transition: .5s;
+  transform: translateY(-4px);
+  z-index: 10;
+}
+.slider-pips__range:focus, .slider-pips__range:focus::-webkit-slider-runnable-track {
+  outline: none;
+}
+.slider-pips__range-selection {
+  position: absolute;
+  height: 45px;
+  background: rgb(21,126,243) linear-gradient(
+                        rgba(255,255,255,.6),
+                        transparent
+                    );
+  border-radius: 20px;
+  transition: all .001s ease-out;
+  z-index: 2;
+}
+.slider-pips__pips, .slider-pips__floats {
+  position: relative;
+  list-style: none;
+  margin: 0 6px;
+}
+.slider-pips__pips {
+  top: 12px;
+}
+.slider-pips__pip {
+  position: absolute;
+  top: -5px;
+  left: 0;
+  width: 1px;
+  height: 6px;
+  background: currentColor;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}

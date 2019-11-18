@@ -1,0 +1,67 @@
+
+This file lists modules PyInstaller was not able to find. This does not
+necessarily mean this module is required for running you program. Python and
+Python 3rd-party packages include a lot of conditional or optional module. For
+example the module 'ntpath' only exists on Windows, whereas the module
+'posixpath' only exists on Posix systems.
+
+Types if import:
+* top-level: imported at the top-level - look at these first
+* conditional: imported within an if-statement
+* delayed: imported from within a function
+* optional: imported within a try-except-statement
+
+IMPORTANT: Do NOT post this list to the issue-tracker. Use it as a basis for
+           yourself tracking down the missing module. Thanks!
+
+missing module named resource - imported by posix (top-level), D:\0-学习\后端学习\项目\movie-h\movie.py (top-level)
+missing module named posix - imported by os (conditional, optional), D:\0-学习\后端学习\项目\movie-h\movie.py (top-level)
+missing module named _posixsubprocess - imported by subprocess (conditional), D:\0-学习\后端学习\项目\movie-h\movie.py (top-level)
+missing module named org - imported by pickle (optional), D:\0-学习\后端学习\项目\movie-h\movie.py (top-level)
+missing module named readline - imported by cmd (delayed, conditional, optional), code (delayed, conditional, optional), pdb (delayed, optional), D:\0-学习\后端学习\项目\movie-h\movie.py (top-level)
+excluded module named _frozen_importlib - imported by importlib (optional), importlib.abc (optional), D:\0-学习\后端学习\项目\movie-h\movie.py (top-level)
+missing module named _frozen_importlib_external - imported by importlib._bootstrap (delayed), importlib (optional), importlib.abc (optional), D:\0-学习\后端学习\项目\movie-h\movie.py (top-level)
+missing module named _winreg - imported by platform (delayed, optional), requests.utils (delayed, conditional, optional), D:\0-学习\后端学习\项目\movie-h\movie.py (top-level)
+missing module named _scproxy - imported by urllib.request (conditional)
+missing module named java - imported by platform (delayed), D:\0-学习\后端学习\项目\movie-h\movie.py (top-level)
+missing module named 'java.lang' - imported by platform (delayed, optional), D:\0-学习\后端学习\项目\movie-h\movie.py (top-level), xml.sax._exceptions (conditional)
+missing module named vms_lib - imported by platform (delayed, conditional, optional), D:\0-学习\后端学习\项目\movie-h\movie.py (top-level)
+missing module named termios - imported by tty (top-level), getpass (optional), D:\0-学习\后端学习\项目\movie-h\movie.py (top-level)
+missing module named urllib.getproxies_environment - imported by urllib (conditional), requests.compat (conditional)
+missing module named urllib.proxy_bypass_environment - imported by urllib (conditional), requests.compat (conditional)
+missing module named urllib.proxy_bypass - imported by urllib (conditional), requests.compat (conditional)
+missing module named urllib.getproxies - imported by urllib (conditional), requests.compat (conditional)
+missing module named urllib.unquote_plus - imported by urllib (conditional), requests.compat (conditional)
+missing module named urllib.quote_plus - imported by urllib (conditional), requests.compat (conditional)
+missing module named urllib.unquote - imported by urllib (conditional), requests.compat (conditional)
+missing module named urllib.urlencode - imported by urllib (optional), urllib3.packages.rfc3986.compat (optional), requests.compat (conditional)
+missing module named urllib.quote - imported by urllib (optional), urllib3.packages.rfc3986.compat (optional), requests.compat (conditional)
+missing module named grp - imported by shutil (optional), tarfile (optional), D:\0-学习\后端学习\项目\movie-h\movie.py (top-level)
+missing module named 'org.python' - imported by copy (optional), D:\0-学习\后端学习\项目\movie-h\movie.py (top-level), xml.sax (delayed, conditional)
+missing module named pwd - imported by posixpath (delayed, conditional), shutil (optional), tarfile (optional), http.server (delayed, optional), webbrowser (delayed), netrc (delayed, conditional), getpass (delayed), D:\0-学习\后端学习\项目\movie-h\movie.py (top-level)
+missing module named _dummy_threading - imported by dummy_threading (optional), D:\0-学习\后端学习\项目\movie-h\movie.py (top-level)
+missing module named sqlalchemy - imported by app.modules.imaegs (top-level), app.modules.performer (top-level), app.modules.movie_catgory (top-level), app.modules.release (top-level), app.modules.soon (top-level), app.modules.classic (top-level), app.modules.classic_top (top-level), app.modules.score_top (top-level), app.modules.soon_top (top-level), app.modules.city (top-level), app.modules.cinemas (top-level), app.modules.cinemas_movie (top-level), app.modules.seat (top-level), app.modules.user (top-level), app.modules.seat_order (top-level), app.modules.admin (top-level), app.modules.talk (top-level), app.mysqls.login (top-level), app.mysqls.email (top-level), app.mysqls.create_user (top-level), app.mysqls.query_user (top-level), app.mysqls.movie_cinemas (top-level), app.mysqls.user_order (top-level)
+missing module named 'sqlalchemy.orm' - imported by app.mysqls.login (top-level), app.mysqls.email (top-level), app.mysqls.create_user (top-level), app.mysqls.movie_cinemas (top-level), app.mysqls.user_order (top-level)
+missing module named alipay - imported by app.http.zhi_fu_bao (top-level)
+missing module named StringIO - imported by urllib3.packages.six (conditional), requests.compat (conditional)
+missing module named Cookie - imported by requests.compat (conditional)
+missing module named cookielib - imported by requests.compat (conditional)
+missing module named urllib2 - imported by requests.compat (conditional)
+missing module named urlparse - imported by requests.compat (conditional)
+missing module named simplejson - imported by requests.compat (optional)
+missing module named backports - imported by urllib3.packages.ssl_match_hostname (optional)
+missing module named Queue - imported by urllib3.util.queue (conditional)
+missing module named brotli - imported by urllib3.util.request (optional), urllib3.response (optional)
+missing module named "'urllib3.packages.six.moves.urllib'.parse" - imported by urllib3.request (top-level), urllib3.poolmanager (top-level)
+runtime module named urllib3.packages.six.moves - imported by http.client (top-level), urllib3.connectionpool (top-level), urllib3.util.response (top-level), 'urllib3.packages.six.moves.urllib' (top-level), urllib3.response (top-level), urllib3.util.queue (top-level)
+missing module named socks - imported by urllib3.contrib.socks (optional)
+missing module named cryptography - imported by urllib3.contrib.pyopenssl (top-level), requests (optional)
+missing module named 'OpenSSL.crypto' - imported by urllib3.contrib.pyopenssl (delayed)
+missing module named 'cryptography.x509' - imported by urllib3.contrib.pyopenssl (delayed, optional)
+missing module named 'cryptography.hazmat' - imported by urllib3.contrib.pyopenssl (top-level)
+missing module named OpenSSL - imported by urllib3.contrib.pyopenssl (top-level)
+missing module named flask_cors - imported by app (top-level)
+missing module named flask_cache - imported by app (top-level)
+missing module named flask_sqlalchemy - imported by app.modules.imaegs (top-level), app.modules.performer (top-level), app.modules.movie_catgory (top-level), app.modules.release (top-level), app.modules.soon (top-level), app.modules.classic (top-level), app.modules.classic_top (top-level), app.modules.score_top (top-level), app.modules.soon_top (top-level), app.modules.city (top-level), app.modules.cinemas (top-level), app.modules.cinemas_movie (top-level), app.modules.seat (top-level), app.modules.user (top-level), app.modules.seat_order (top-level), app.modules.admin (top-level), app.modules.talk (top-level)
+missing module named werkzeug - imported by app.modules.user (top-level)
+missing module named flask - imported by app (top-level), app.api.blueprint (top-level), app.api.login (top-level), app.mysqls.login (top-level), app.api.email (top-level), app.http.send_email (top-level), app.mysqls.email (top-level), app.api.register_user (top-level), app.mysqls.create_user (top-level), app.api.verify_token (top-level), app.api.movie_list (top-level), app.api.movie_catgory (top-level), app.api.movie_top (top-level), app.api.movie_search (top-level), app.api.address (top-level), app.api.cinemas (top-level), app.api.cinemas_movie (top-level), app.api.movie_cinemas (top-level), app.mysqls.movie_cinemas (top-level), app.api.seat (top-level), app.api.order (top-level), app.api.send_code (top-level), app.api.get_order (top-level), app.mysqls.user_order (top-level), app.api.pay_api (top-level), app.api.admin_login (top-level), app.api.pay_end (top-level), app.api.query_talk (top-level), app.api.send_talk (top-level), app.api.admin_query (top-level), app.api.drop_talk (top-level), app.api.save_user (top-level)
