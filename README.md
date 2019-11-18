@@ -7,7 +7,7 @@
 ## 功能：分电影分类，搜索、预览、电影评论、电影购票、用户登录、后台管理......
 
 ### 主页：
-![图片](https://github.com/potatopeople/movie/tree/master/movie/static/images/%25E4%25B8%25BB%25E9%25A1%25B5.png)
+![图片](https://github.com/potatopeople/movie/tree/master/movie/static/images/主页.png)
 ### 电影分类：
 ![图片](https://github.com/potatopeople/movie/tree/master/movie/static/images/电影分类.png)
 ### 搜索电影：
